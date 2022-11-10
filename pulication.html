@@ -55,22 +55,54 @@
 	<!-- +++++ Projects Section +++++ -->
 	
 	<div class="container pt">
-		<div class="row mt">
-			<div class="col-lg-6 col-lg-offset-3 centered">
-				<h3>MY WORK</h3>
-				<hr>
-				<p></p>
-			</div>
-		</div>
+	
 		
-		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom green" ><img src="assets/img/loading.webp" alt="" /></a>
-				<p>Coming out soon...</p>
-			</div>
-		
-		</div><!-- /row -->
-	</div><!-- /container -->
+	<!-- +++++ Post +++++ -->
+	<div id="white">
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <p>
+          <!--<img src="assets/img/user.png" width="50px" height="50px">--> <ba>ICDE 2023</ba></p>
+        <p>Xianzhi Zeng, Shuhao Zhang</bd></p>
+        <h4>Parallelizing Stream Compression for IoT Applications on Asymmetric Multicores</h4>
+        <details>
+          <summary><h5>Abstract</h5></summary> 
+      <p>Data stream compression attracts much attention
+        recently due to the rise of IoT applications. Thanks to
+        the balanced computational power and energy consumption,
+        asymmetric multicores are widely used in IoT devices. This
+        paper introduces CStream, a novel framework for parallelizing
+        stream compression on asymmetric multicores to minimize energy
+        consumption without violating the user-specified compressing
+        latency constraint. Existing works cannot effectively utilize
+        asymmetric multicores for stream compression, primarily due
+        to the non-trivial asymmetric computation and asymmetric
+        communication effects. To this end, CStream is developed with the
+        following two novel designs: 1) fine-grained decomposition, which
+        decomposes a stream compression procedure into multiple finegrained
+        tasks to better expose the task-core affinities under the
+        asymmetric computation effects; and 2) asymmetry-aware task
+        scheduling, which schedules the decomposed tasks based on a
+        novel cost model to exploit the exposed task-core affinities while
+        considering asymmetric communication effects. To validate our
+        proposal, we evaluate CStream with five competing mechanisms
+        of parallelizing stream compression algorithms on a recent
+        asymmetric multicore processor. Our extensive experiments
+        based on a benchmark consisting of three algorithms and four
+        datasets, show that CStream outperforms alternative approaches
+        by up to 53% lower energy consumption without compressing
+        latency constraint violation.</p>
+      </details>
+      <details open>
+        <summary><h5>Key words</h5></summary> 
+        <p>Stream compression, Edge Computing and IoT,
+          Asymmetric Hardware</p>
+      </details>
+        <p><bt>Resources: </p>
+        <p><a href="downloads/tr_cstream/TR_CSTREAM.pdf" download="TR_CSTREAM">#Technical Report</a> </p>
+      </div>
+
 	
 	
 	<!-- +++++ Footer Section +++++ -->
