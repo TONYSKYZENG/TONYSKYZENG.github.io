@@ -103,8 +103,82 @@
         <p><a href="downloads/tr_cstream/TR_CSTREAM.pdf" download="TR_CSTREAM">#Technical Report</a> </p>
       </div>
 
-	
-	
+	    <div id="white">
+        <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <p>
+              <!--<img src="assets/img/user.png" width="50px" height="50px">--> <ba>DEBS 2023</ba></p>
+            <p>Xianzhi Zeng, Shuhao Zhang</bd></p>
+            <h4>A Hardware-Conscious Stateful Stream Compression
+              Framework for IoT Applications (Visionary Paper)</h4>
+            <details>
+              <summary><h5>Abstract</h5></summary> 
+          <p>Data stream compression has attracted vast interest in
+            emerging IoT (Internet of Things) applications. However,
+            adopting stream compression on IoT applications is
+            non-trivial due to the divergent demands, i.e., low
+            energy consumption, high throughput, low latency, high
+            compressibility, and tolerable information loss, which
+            sometimes conflict with each other. This is particularly
+            challenging when adopting stateful stream compression
+            algorithms, which rely on states, e.g., a dictionary or
+            model. This paper presents our vision of CStream, a
+            hardware-conscious stateful stream compression framework
+            for IoT applications. Through careful hardware-conscious
+            optimizations, CStream will minimize energy consumption
+            while striving to satisfy the divergent performance demands
+            for parallelizing complex stateful stream compression
+            algorithms for IoT applications.</p>
+          </details>
+          <details open>
+            <summary><h5>Key words</h5></summary> 
+            <p>Stream compression, IoT and Edge Computing,
+              Asymmetric and Heterogeneous Hardware</p>
+          </details>
+            <p><bt>Resources: </p>
+            <p><a href="downloads/tr_cstream/DEBS2023.pdf" download="CSTREAM_DEBS2023">#Early Release</a> </p>
+          </div>
+
+          <div id="white">
+            <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <p>
+                  <!--<img src="assets/img/user.png" width="50px" height="50px">--> <ba>ICDE 2023</ba></p>
+                <p>Hao Zhang, Xianzhi Zeng, Shuhao Zhang, Xinyi Liu, Mian Lu, Zhao Zheng, Yuqiang Chen</bd></p>
+                <h4>Scalable Online Interval Join on Modern Multicore
+                  Processors in OpenMLDB</h4>
+                <details>
+                  <summary><h5>Abstract</h5></summary> 
+              <p>OpenMLDB is an open-source machine learning
+                database, that provides a feature platform computing consistent
+                features for training and inference. The online interval join
+                (OIJ ), i.e., joining two input streams over relative time intervals,
+                is becoming a core operation in OpenMLDB. Its costly nature
+                and intrinsic parallelism opportunities have created significant
+                interest in accelerating OIJ on modern multicore processors.
+                In this work, we first present an in-depth empirical study on
+                an existing parallel OIJ algorithm (Key-OIJ ), which applies
+                a key-partitioned parallelization strategy. Key-OIJ has been
+                implemented in Apache Flink and used in real-world applications.
+                However, our study points out the limitations of Key-OIJ ,
+                and reveals that Key-OIJ is not capable of fully exploiting
+                modern multicore processors. Based on our analysis, we propose
+                a new approach, the Scale-OIJ algorithm with a set of
+                optimization techniques. Compared with Key-OIJ , Scale-OIJ
+                is particularly efficient for handling workloads involving fewer
+                keys, large time intervals, and large lateness configurations. The
+                extensive experiments using real workloads have demonstrated
+                the superior performance of Scale-OIJ . Furthermore, we have
+                partially integrated and tested Scale-OIJ in the latest version
+                of OpenMLDB, demonstrating its practicality in a machine
+                learning database.</p>
+              </details>
+              </details>
+                <p><bt>Resources: </p>
+                <p><a href="https://github.com/4paradigm/OpenMLDB">OpenMLDB</a> </p>
+              </div>
 	<!-- +++++ Footer Section +++++ -->
 	
 
