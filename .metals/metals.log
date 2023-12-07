@@ -3,3 +3,6 @@
 2023.11.23 15:27:45 WARN  no build tool detected in workspace '/home/tony/projects/TONYSKYZENG.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 11月 23, 2023 3:27:49 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 信息: Unsupported notification method: $/setTrace
+2023.11.23 18:17:16 INFO  Shutting down server
+2023.11.23 18:17:16 INFO  shutting down Metals
+2023.11.23 18:17:16 INFO  Exiting server
